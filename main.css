@@ -14,6 +14,11 @@ a{
     text-align: center;
     line-height: 2em;
     font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
 
    
 }
@@ -54,4 +59,16 @@ a{
 .toolbar a:hover{
     background-color: black;
     color: salmon;
+}
+
+
+.row{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.row .left{
+    flex-basis: 30%;
 }
