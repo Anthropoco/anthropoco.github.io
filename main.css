@@ -1,0 +1,26 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: aliceblue;
+}
+
+a{
+    color: aquamarine;
+}
+
+.content{
+    padding-top: 10%;
+    text-align: center;
+    line-height: 2em;
+    font-size: 1.5em;
+   
+}
+
+.title{
+    font-size: 3em;
+}
+
+.tagline{
+    font-style: italic;
+}
