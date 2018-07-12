@@ -1,0 +1,31 @@
+.edit-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+
+.edit-form .row{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.edit-form label{
+    flex-basis: 30%;
+}
+
+.edit-form input,textarea{
+    width: 100%;
+}
+
+.edit-form input[type='submit']{
+    line-height: 2;
+    background-color: salmon;
+    border: none;
+    font-size: 1em;
+    width: 20%;
+
+}
