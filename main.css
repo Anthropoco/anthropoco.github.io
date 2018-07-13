@@ -74,3 +74,14 @@ a{
 .row .left{
     flex-basis: 30%;
 }
+
+input[type=submit]{
+    background-color: black;
+    border: none;
+    /* width: 40%; */
+    line-height: 3;
+    color: aliceblue;
+    font-size: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
