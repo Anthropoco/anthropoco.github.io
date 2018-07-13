@@ -9,11 +9,11 @@ Its key proposed features are:
 4. Users can add or modify an entry.
 
 **Site Structure**
-. [/index.html](https://anthropoco.github.io/MyDiary/ui)
-. [/edit-entry.html](https://anthropoco.github.io/MyDiary/ui/edit-entry.html)
-. [/entries.html](https://anthropoco.github.io/MyDiary/ui/entries.html)
-. [/profile.html](https://anthropoco.github.io/MyDiary/ui/profile.html)
-. [/entry.html](https://anthropoco.github.io/MyDiary/ui/entry.html)
+* [/index.html](https://anthropoco.github.io/MyDiary/ui)
+* [/edit-entry.html](https://anthropoco.github.io/MyDiary/ui/edit-entry.html)
+* [/entries.html](https://anthropoco.github.io/MyDiary/ui/entries.html)
+* [/profile.html](https://anthropoco.github.io/MyDiary/ui/profile.html)
+* [/entry.html](https://anthropoco.github.io/MyDiary/ui/entry.html)
 
 
 
