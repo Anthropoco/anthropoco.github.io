@@ -41,6 +41,10 @@ function viewEntry(e){
     window.location.assign("entry.html");
 }
 
+function editEntry(e){
+    window.location.assign("edit-entry.html");
+}
+
 //attach the logout function to logout buttons
 document.querySelector('.logout')
     .addEventListener('click', logout);
@@ -55,3 +59,7 @@ Array.from(document.querySelectorAll('.entry'))
     .forEach((item, idx)=>{
         item.addEventListener('click',viewEntry);
     });
+
+//call editEntry on click of button with class edit-entry
+document.querySelector('.edit-entry')
+    .addEventListener('click', editEntry);
