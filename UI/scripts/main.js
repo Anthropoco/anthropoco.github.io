@@ -20,3 +20,8 @@ function login(e) {
     window.location.assign("entries.html")
 }
 
+function createUser(e) {
+    //submit new user credentials
+    //on success display entries.html
+    window.location.assign("entries.html")
+}
