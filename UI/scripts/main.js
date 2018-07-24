@@ -25,3 +25,14 @@ function createUser(e) {
     //on success display entries.html
     window.location.assign("entries.html")
 }
+
+function logout(e){
+    //cancel session
+
+    //redirect to homepage
+    window.location.assign("index.html");
+}
+
+//attach the logout function to logout buttons
+document.querySelector('.logout')
+    .addEventListener('click', logout);
