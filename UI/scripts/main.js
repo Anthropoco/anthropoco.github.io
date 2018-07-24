@@ -33,6 +33,16 @@ function logout(e){
     window.location.assign("index.html");
 }
 
+function viewProfile(e){
+    window.location.assign("profile.html")
+}
+
+
 //attach the logout function to logout buttons
 document.querySelector('.logout')
     .addEventListener('click', logout);
+
+//call viewProfile on click of view-profile buttons
+document.querySelector('.view-profile')
+    .addEventListener('click', viewProfile);
+    
