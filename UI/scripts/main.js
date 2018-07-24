@@ -13,3 +13,10 @@ function displaySignUp(e) {
 function closeModal(e) {
     document.querySelector('.overlay').style.display = 'none';
 }
+
+function login(e) {
+    //submit login credentials
+    //on success display entries.html
+    window.location.assign("entries.html")
+}
+
