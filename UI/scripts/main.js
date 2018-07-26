@@ -34,9 +34,16 @@ function logout(e){
 }
 
 function viewProfile(e){
-    window.location.assign("profile.html")
+    window.location.assign("profile.html");
 }
 
+function viewEntry(e){
+    window.location.assign("entry.html");
+}
+
+function editEntry(e){
+    window.location.assign("edit-entry.html");
+}
 
 //attach the logout function to logout buttons
 document.querySelector('.logout')
@@ -46,3 +53,13 @@ document.querySelector('.logout')
 document.querySelector('.view-profile')
     .addEventListener('click', viewProfile);
     
+
+//call viewEntry on click of buttons with class entry
+Array.from(document.querySelectorAll('.entry'))
+    .forEach((item, idx)=>{
+        item.addEventListener('click',viewEntry);
+    });
+
+//call editEntry on click of button with class edit-entry
+document.querySelector('.edit-entry')
+    .addEventListener('click', editEntry);
